@@ -1,0 +1,18 @@
+citHeader("To cite 'misclass' in publications use:")
+
+citEntry(entry = "Article",
+         title = "Adjusting for misclassification of an exposure in an individual participant data meta-analysis",
+         author       = personList(person(given = "Valentijn M.T.", family = "de Jong"),
+                                   as.person("Harlan Campbell"),
+                                   as.person("Lauren Maxwell"),
+                                   as.person("Thomas Jaenisch"),
+                                   as.person("Paul Gustafson"),
+                                   as.person("Thomas P.A. Debray")),
+         journal      = "arXiv",
+         year         = "2021",
+         # volume       = "xxx",
+         # number       = "xxx",
+         # pages        = "xxx--xxx",
+         url          = "http://arxiv.org/abs/2111.01650",
+         textVersion  = paste("de Jong VMT, Campbell H, Maxwell L, Jaenisch T, Gustafson P, Debray TPA. Adjusting for misclassification of an exposure in an individual participant data meta-analysis. arXiv:211101650. 2021 Nov 2; Available from: https://arxiv.org/abs/2111.01650")
+)

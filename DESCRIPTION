@@ -1,0 +1,27 @@
+Package: misclass
+Title: Adjust for Misclassification of an Exposure Variable in Pooled Data
+Version: 0.0.0.9000
+Authors@R: 
+  person(given = "Valentijn",
+         family = "de Jong",
+         role = c("aut", "cre"),
+         email="Valentijn.M.T.de.Jong@gmail.com", 
+         comment="https://orcid.org/0000-0001-9921-3468")
+Description: Adjust for misclassification of an exposure variable in pooled data,
+  such as in an individual participant data meta-analysis (IPDMA). Using Bayesian
+  misclassification models, the potential misclassification of an exposure is
+  accounted for, and the uncertainty is propagated to the variance and CI. 
+  Modeling of an single data set (without clustering) is also possible.
+  The misclassification model is fitted using misclass(). This package is 
+  intended to make using a misclassification model easier. Therefore, it is not 
+  entirely comprehensive, but it is designed to be flexible. The functions
+  make.inits(), make.model() and make.monitors() can be used separately to 
+  tweak the model, but are otherwise called by misclass(). 
+Imports: coda, runjags, stats
+Depends: R (>= 4.0.0)
+Suggests: testthat (>= 3.1.0), mvtnorm
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+Date: 2021
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
