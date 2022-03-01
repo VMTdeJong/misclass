@@ -12,3 +12,5 @@ intended to make using a misclassification model easier. Therefore, it is not
 entirely comprehensive, but it is designed to be flexible. The functions
 make.inits(), make.model() and make.monitors() can be used separately to 
 tweak the model, but are otherwise called by misclass(). 
+
+A pdf version of the manual is available on https://github.com/VMTdeJong/misclass-manual/blob/main/misclass-manual.pdf
